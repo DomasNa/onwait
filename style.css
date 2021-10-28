@@ -1,0 +1,41 @@
+.square{
+    width:70px;
+    height:70px;
+    border-radius:10px;
+    display: inline-block;
+
+}
+.one{
+    background:red;
+    animation: run 2.1s 5;
+    animation-direction: alternate;
+}
+.two{
+    background: blue;
+    animation: run 2.3s 5;
+    animation-direction: alternate;
+}
+.three{
+    background:green;
+    animation: run 2.5s 5;
+    animation-direction: alternate;
+}
+.four{
+    background: yellow;
+    animation: run 2.7s 5;
+    animation-direction: alternate;
+}
+.five{
+    background: black;
+    animation: run 2.9s 5;
+    animation-direction: alternate;
+}
+
+@keyframes run {
+    0% {
+      transform: translateY(100px);    
+    }
+    100% {
+      transform: translateY(10px);
+    }
+  }
